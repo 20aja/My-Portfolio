@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Kader Jamal - Professional Frontend Developer specializing in creating modern, responsive websites using HTML, CSS, JavaScript, and React. Explore my portfolio and projects." />
+    <meta name="keywords" content="Frontend Developer, Web Developer, React, JavaScript, HTML, CSS, Portfolio, Web Design, UI/UX" />
+    <meta name="author" content="Kader Jamal" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="Kader Jamal - Frontend Developer Portfolio" />
+    <meta property="og:description" content="Professional Frontend Developer specializing in creating modern, responsive websites. Explore my work and projects." />
+    <meta property="og:image" content="./image/kader.png" />
+    <meta property="og:url" content="https://20aja.github.io/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Kader Jamal - Frontend Developer Portfolio" />
+    <meta name="twitter:description" content="Professional Frontend Developer specializing in creating modern, responsive websites." />
+    <meta name="twitter:image" content="./image/kader.png" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <script src="./js/main.js" defer></script>
+    <script src="./js/particles.js" defer></script>
+    <script src="./js/cursor.js" defer></script>
+    <title>Kader Jamal - Frontend Developer Portfolio</title>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+      <div class="loader"></div>
+      <h2>Loading...</h2>
+    </div>
+
+    <!-- Header Section -->
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-controls">
+        <div class="theme-toggle">
+          <i class="fa-solid fa-moon" id="theme-icon"></i>
+        </div>
+        <i id="icon-bar" class="fa-solid fa-bars"></i>
+      </div>
+    </header>
+    <!-- Home Section -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, It's Me</h3>
+        <h1>Kader Jamal</h1>
+        <h3>And I'm a <span class="typing-text"></span></h3>
+        <p>Welcome to my digital world, where I create attractive and fast interfaces using the latest web technologies.</p>
+        <div class="social-media">
+          <a href="https://www.facebook.com/share/14PbS1qGt4c/" data-tooltip="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.instagram.com/2a.j.a" data-tooltip="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/20aja" data-tooltip="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://t.me/abude_a" data-tooltip="Telegram"><i class="fab fa-telegram"></i></a>
+        </div>
+        <a href="./documents/Kader_CV.pdf" download class="btn">Download CV</a>
+      </div>
+      <div class="home-img">
+        <div class="hexagon-shape">
+          <img src="./image/kader.png" alt="portfolio" />
+        </div>
+      </div>
+    </section>
+    <!-- About Section -->
+    <section class="about reveal" id="about">
+      <div class="about-img">
+        <img src="./image/kader.png" alt="About" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Frontend Developer!</h3>
+        <p>
+          Welcome to my homepage, where I showcase my passion for developing modern and responsive front-ends. I use HTML, CSS, JavaScript, and React to build elegant and user-friendly experiences.
+          Here you'll find my work, projects, and links to contact me, because I believe good design starts with the small details.
+        </p>
+
+
+
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills reveal" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skill-box">
+          <div class="skill-info">
+            <h3>HTML</h3>
+            <span class="percentage">95%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" data-progress="95%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-info">
+            <h3>CSS</h3>
+            <span class="percentage">90%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" data-progress="90%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-info">
+            <h3>JavaScript</h3>
+            <span class="percentage">85%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" data-progress="85%"></div>
+          </div>
+        </div>
+
+        <div class="skill-box">
+          <div class="skill-info">
+            <h3>React</h3>
+            <span class="percentage">80%</span>
+          </div>
+          <div class="progress-bar">
+            <div class="progress" data-progress="80%"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services section -->
+    <section class="services reveal" id="services">
+      <h2 class="heading">Our <span>Services</span></h2>
+
+      <div class="services-container">
+        <div class="services-box">
+          <i class="fa-solid fa-code"></i>
+          <h3>Web Development</h3>
+          <p>Creating modern, responsive websites using the latest technologies. I specialize in building clean, efficient code that delivers exceptional user experiences across all devices.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-palette"></i>
+          <h3>UI/UX Design</h3>
+          <p>Designing intuitive and visually appealing interfaces. I focus on creating seamless user journeys that combine aesthetics with functionality to engage and convert visitors.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="services-box">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Responsive Design</h3>
+          <p>Ensuring your website looks perfect on every device. From desktop to mobile, I create layouts that adapt smoothly to different screen sizes and orientations.</p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section class="portfolio reveal" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="./image/prayer times.jpg" />
+          <div class="portfolio-layer">
+            <h4>Prayer Times</h4>
+            <p>Prayer Times Project: A smart design that accurately displays prayer times.</p>
+            <a href="https://20aja.github.io/Prayer-Times/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/cruds.jpg" />
+          <div class="portfolio-layer">
+            <h4>Data Management</h4>
+            <p>A data management system that allows data to be created, read, modified, deleted, and saved.</p>
+            <a href="https://20aja.github.io/CRUDS/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/Elkader.jpg" />
+          <div class="portfolio-layer">
+            <h4>El-kader Design</h4>
+            <p>A modern design that is responsive across all devices, using only HTML and CSS.</p>
+            <a href="https://20aja.github.io/El-kader/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-fade""></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/dark coffee.jpg" />
+          <div class="portfolio-layer">
+            <h4>Dark Coffee Design</h4>
+            <p>A modern design that is responsive across all devices, using only HTML and CSS.</p>
+            <a href="https://20aja.github.io/Dark-Coffee-Design/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-fade""></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/5.jpg" />
+          <div class="portfolio-layer">
+            <h4>Weather App</h4>
+            <p>A real-time weather application that provides accurate forecasts using modern APIs with beautiful animations.</p>
+            <a href="https://20aja.github.io/Weather-App/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="./image/8.jpg" />
+          <div class="portfolio-layer">
+            <h4>Task Manager</h4>
+            <p>A productivity application for managing daily tasks with drag-and-drop functionality and local storage.</p>
+            <a href="https://20aja.github.io/Task-Manager/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-fade"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact reveal" id="contact">
+      <h2 class="heading">contact <span>Me!</span></h2>
+
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <div class="input-box">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+        </div>
+        <div class="input-box">
+          <input type="tel" name="phone" placeholder="Mobile Number" />
+          <input type="text" name="subject" placeholder="Email Subject" />
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+    <!-- Footer Section -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2026 by Kader | All Rights Reserved.</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+    </footer>
+  </body>
+</html>
